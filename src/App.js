@@ -7,15 +7,18 @@ class App() extends React.Component{
   render() {
     let routes = (
       <Switch>
-        <Route>
-
-        </Route>
+        <Route path="/home" component={LandingPage} />
         <Redirect to="/" />
       </Switch>
 
     )
 
     return (
+      <div>
+        <Layout>
+          {routes}
+        </Layout>
+      </div>
 
     )
 
