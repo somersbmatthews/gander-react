@@ -10,7 +10,7 @@ class App() extends React.Component{
         <Route>
 
         </Route>
-        <Redirect to="/"
+        <Redirect to="/" />
       </Switch>
 
     )
